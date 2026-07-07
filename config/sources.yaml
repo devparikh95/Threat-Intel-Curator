@@ -1,0 +1,10 @@
+nvd:
+  lookback_hours: 24
+  min_cvss: 7.0          # ranking tiebreaker, NOT the primary filter
+rss:
+  - https://msrc.microsoft.com/blog/feed
+  - https://unit42.paloaltonetworks.com/feed/
+  - https://www.cisa.gov/cybersecurity-advisories/all.xml
+  - https://www.mandiant.com/resources/blog/rss.xml
+github:
+  poc_lookback_days: 7

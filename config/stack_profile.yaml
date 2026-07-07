@@ -1,0 +1,23 @@
+products:
+  - vendor: microsoft
+    product: defender_for_endpoint
+    cpe_prefix: "cpe:2.3:a:microsoft:defender"
+  - vendor: paloaltonetworks
+    product: pan-os
+    cpe_prefix: "cpe:2.3:o:paloaltonetworks:pan-os"
+  - vendor: amazon
+    product: guardduty
+log_sources:        # used by the Relevance Analyzer for detectability reasoning
+  - edr_process_events
+  - firewall_traffic_logs
+  - cloudtrail
+  - email_gateway
+generic_threat_interests:   # TTP-driven funnel, no CPE
+  - phishing
+  - malware_loaders
+  - credential_theft
+
+models:
+  relevance_analyzer: "gemini-3.1-flash-lite"
+  hunt_guide_generator: "gemini-3.1-flash-lite"
+
