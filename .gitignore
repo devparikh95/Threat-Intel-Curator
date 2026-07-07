@@ -203,6 +203,10 @@ my_env.tfvars
 # A2A Inspector
 tools/a2a-inspector/
 
+# Personal prep docs (kept local, not for public repo)
+VIDEO_OUTLINE.md
+WRITEUP_DRAFT.md
+
 # Generated briefings (keep one sample for graders)
 briefings/*
 !briefings/2026-07-06.md
