@@ -206,6 +206,8 @@ tools/a2a-inspector/
 # Personal prep docs (kept local, not for public repo)
 VIDEO_OUTLINE.md
 WRITEUP_DRAFT.md
+WRITEUP.md
+CODEBASE_GUIDE.md
 
 # Generated briefings (keep one sample for graders)
 briefings/*
